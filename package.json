@@ -2,9 +2,12 @@
   "name": "willparsons.github.io",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://willparsons.github.io",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -16,6 +19,7 @@
     "@types/react-dom": "^17.0.10",
     "@vitejs/plugin-react": "^1.0.7",
     "autoprefixer": "^10.4.4",
+    "gh-pages": "^3.2.3",
     "postcss": "^8.4.12",
     "prettier": "^2.6.0",
     "prettier-plugin-tailwindcss": "^0.1.8",
