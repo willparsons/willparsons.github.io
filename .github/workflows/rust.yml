@@ -18,7 +18,7 @@ jobs:
       - run: rustup target add wasm32-unknown-unknown
       - run: cargo add trunk
       - name: Build
-      - run: trunk build --release
+        run: trunk build --release
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v1
         with:
