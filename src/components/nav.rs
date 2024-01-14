@@ -1,4 +1,5 @@
 use leptos::*;
+use leptos_router::A;
 
 #[component]
 pub fn Nav() -> impl IntoView {
@@ -7,9 +8,8 @@ pub fn Nav() -> impl IntoView {
             <p>icon</p>
 
             <div class="flex gap-8">
-                <p>route</p>
-                <p>route</p>
-                <p>route</p>
+                <A href="/">home</A>
+                <A href="/about">about</A>
             </div>
         </nav>
     }
