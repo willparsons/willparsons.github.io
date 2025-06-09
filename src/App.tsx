@@ -4,9 +4,9 @@ export function App() {
       <div class="w-full h-full px-24 flex items-center">
         <div class="w-1/2">
           <div class="flex gap-4">
-            <span class="badge badge-ghost">JS/TS</span>
-            <span class="badge badge-ghost">Python</span>
-            <span class="badge badge-ghost">React</span>
+            <span class="badge badge-soft">JS/TS</span>
+            <span class="badge badge-soft">Python</span>
+            <span class="badge badge-soft">React</span>
           </div>
 
           <h1 class="text-8xl">Hi, I'm<br /><span class="text-indigo-400">William</span>.</h1>
@@ -19,7 +19,7 @@ export function App() {
           </div>
         </div>
         <div class="w-1/2">
-          <img src="https://www.freevector.com/uploads/vector/preview/4791/FreeVector-Geometric-Vector-Pattern.jpg" class="w-full rounded-2xl border-neutral-800 border-2" />
+          <img class="ring-2 ring-gray-300/50 w-full rounded-2xl " src="https://www.freevector.com/uploads/vector/preview/4791/FreeVector-Geometric-Vector-Pattern.jpg" />
         </div>
       </div>
     </div>
