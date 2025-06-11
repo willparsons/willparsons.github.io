@@ -13,12 +13,16 @@ export function App() {
             </div>
 
             <div class="flex gap-4">
-              <button class="btn btn-square">
-                <AiOutlineGithub class="w-full h-full" />
-              </button>
-              <button class="btn btn-square">
-                <AiOutlineLinkedin class="w-full h-full" />
-              </button>
+              <a href="https://github.com/willparsons" title="My Github page" rel="noopener" target="_blank">
+                <button class="btn btn-square btn-soft">
+                  <AiOutlineGithub class="w-full h-full" />
+                </button>
+              </a>
+              <a href="https://www.linkedin.com/in/william-p-h/" title="My Linkedin account" rel="noopener" target="_blank">
+                <button class="btn btn-square btn-soft">
+                  <AiOutlineLinkedin class="w-full h-full" />
+                </button>
+              </a>
             </div>
           </div>
 
