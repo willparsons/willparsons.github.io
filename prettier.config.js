@@ -1,11 +1,12 @@
-/** @type {import('prettier').Config} */
+/**@type {import('prettier').Config}*/
+
 const config = {
-    printWidth: 120,
-    useTabs: false,
+    trailingComma: "all",
     tabWidth: 4,
     semi: true,
     singleQuote: false,
-    trailingComma: "all",
+    printWidth: 120,
+    useTabs: false,
 };
 
 export default config;
