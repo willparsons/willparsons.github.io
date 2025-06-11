@@ -12,7 +12,6 @@ export function App() {
               <span class="badge badge-soft">React</span>
             </div>
 
-
             <div class="flex gap-4">
               <button class="btn btn-square">
                 <AiOutlineGithub class="w-full h-full" />
@@ -23,7 +22,7 @@ export function App() {
             </div>
           </div>
 
-          <h1 class="text-7xl">Hi, I'm <span class="text-indigo-300">William</span>.</h1>
+          <h1 class="text-7xl">Hi, I'm <span class="text-purple-300">William</span>.</h1>
           <h1 class="text-4xl text-gray-400">Fullstack Software Engineer</h1>
 
           <p class="text-lg my-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a varius sem. Ut accumsan eu sem vel dignissim. Maecenas vitae neque nisi. Donec a ligula lacus. Praesent eget urna eget nulla sagittis dictum ut eget odio. Donec quis efficitur elit, nec pretium eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
