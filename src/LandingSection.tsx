@@ -13,7 +13,7 @@ export function LandingSection() {
 
                     <div class="flex gap-4">
                         <a href="https://github.com/willparsons" title="My Github page" rel="noopener" target="_blank">
-                            <button class="btn btn-square btn-soft">
+                            <button class="btn btn-square btn-soft" aria-label="Github button">
                                 <AiOutlineGithub class="w-full h-full" />
                             </button>
                         </a>
@@ -23,7 +23,7 @@ export function LandingSection() {
                             rel="noopener"
                             target="_blank"
                         >
-                            <button class="btn btn-square btn-soft">
+                            <button class="btn btn-square btn-soft" aria-label="Linkedin button">
                                 <AiOutlineLinkedin class="w-full h-full" />
                             </button>
                         </a>
