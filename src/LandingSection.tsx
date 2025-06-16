@@ -46,7 +46,9 @@ export function LandingSection() {
                     <a href="#projects">
                         <button class="btn w-32 btn-outline btn-secondary">Projects</button>
                     </a>
-                    <button class="btn w-32 btn-primary">Get In Touch</button>
+                    <a href="mailto:williamparsons62@gmail.com">
+                        <button class="btn w-32 btn-primary">Get In Touch</button>
+                    </a>
                 </div>
             </div>
         </section>
