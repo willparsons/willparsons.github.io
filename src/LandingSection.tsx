@@ -5,7 +5,7 @@ export function LandingSection() {
         <section id="landing" class="w-full min-h-screen flex flex-row justify-center items-center lg:px-64">
             <div class="w-full">
                 <div class="flex mb-4 justify-between">
-                    <div class="flex gap-4">
+                    <div class="flex gap-4 items-center">
                         <span class="badge badge-soft">JS/TS</span>
                         <span class="badge badge-soft">Python</span>
                         <span class="badge badge-soft">React</span>
