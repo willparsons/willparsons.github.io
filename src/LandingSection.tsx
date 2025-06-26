@@ -36,10 +36,10 @@ export function LandingSection() {
                 <h1 class="text-4xl text-gray-400">Fullstack Software Engineer</h1>
 
                 <p class="text-lg my-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a varius sem. Ut accumsan eu sem
-                    vel dignissim. Maecenas vitae neque nisi. Donec a ligula lacus. Praesent eget urna eget nulla
-                    sagittis dictum ut eget odio. Donec quis efficitur elit, nec pretium eros. Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit.
+                    I'm a full-stack web developer with a focus on delivering high-performance, user-centered solutions.
+                    I’m passionate about optimizing both front-end and back-end experiences, ensuring seamless and
+                    intuitive interactions. With every project, I aim to create fast, responsive web applications that
+                    elevate the overall user experience.
                 </p>
 
                 <div class="flex flex-row gap-4">
