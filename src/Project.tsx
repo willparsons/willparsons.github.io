@@ -1,4 +1,3 @@
-import { AiOutlineStar } from "solid-icons/ai";
 import { For, JSXElement } from "solid-js";
 
 export type ProjectProps = {
@@ -23,15 +22,16 @@ export function Project(props: ProjectProps) {
 
                 <p class="text-gray-400">{props.description}</p>
 
-                <ul class="list-inside list-none my-8">
-                    <For each={props.learnings}>
-                        {(item) => (
-                            <li class="flex items-center gap-2">
-                                <AiOutlineStar size={20} class="text-purple-300" /> <span>{item}</span>
-                            </li>
-                        )}
-                    </For>
-                </ul>
+                {/* Hiding this for now since I might bring it back */}
+                {/* <ul class="list-inside list-none my-8"> */}
+                {/*     <For each={props.learnings}> */}
+                {/*         {(item) => ( */}
+                {/*             <li class="flex items-center gap-2"> */}
+                {/*                 <AiOutlineStar size={20} class="text-purple-300" /> <span>{item}</span> */}
+                {/*             </li> */}
+                {/*         )} */}
+                {/*     </For> */}
+                {/* </ul> */}
 
                 <div class="flex flex-wrap gap-2">
                     <For each={props.technologies}>{(item) => <div class="badge badge-xl">{item}</div>}</For>
