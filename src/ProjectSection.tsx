@@ -1,4 +1,4 @@
-import { SiDaisyui, SiNextdotjs } from "solid-icons/si";
+import { SiDaisyui, SiGithubpages, SiNextdotjs } from "solid-icons/si";
 import { Project } from "./Project";
 import { FaBrandsReact } from "solid-icons/fa";
 import { BiLogosFirebase, BiLogosTailwindCss, BiLogosTypescript } from "solid-icons/bi";
@@ -13,8 +13,10 @@ export function ProjectSection() {
                 <Project
                     name="Prompto"
                     description="A worlde inspired guessing game where users try to figure out the prompt that generated the image."
-                    learnings={["Foo", "Bar", "Baz"]}
                     image="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                    liveURL="https://prompto.today"
+                    githubURL="https://github.com/Vik70/prompto"
+                    learnings={["Foo", "Bar", "Baz"]}
                     technologies={[
                         <>
                             <SiNextdotjs class="text-white" />
@@ -42,8 +44,9 @@ export function ProjectSection() {
                 <Project
                     name="My Portfolio"
                     description="The site you're on right now!"
-                    learnings={["Foo", "Bar", "Baz"]}
                     image="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                    githubURL="https://github.com/willparsons/willparsons.github.io"
+                    learnings={["Foo", "Bar", "Baz"]}
                     technologies={[
                         <>
                             <TbBrandSolidjs class="text-blue-400" />
