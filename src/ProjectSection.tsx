@@ -61,6 +61,10 @@ export function ProjectSection() {
                         <>
                             <SiDaisyui size={70} />
                         </>,
+
+                        <>
+                            <SiGithubpages size={70} />
+                        </>,
                     ]}
                 />
             </div>
