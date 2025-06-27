@@ -2,11 +2,11 @@
 > This is still a work in progress. Don't judge it too harshly!
 
 <h1 align="center">
-  willparsons.github.io
+  <a href="https://willparsons.github.io" target="_blank">willparsons.github.io</a>
 </h1>
 <div align="center">
   <a href="https://github.com/willparsons/willparsons.github.io/actions/workflows/pages/pages-build-deployment" target="_blank">
-    <img src="https://github.com/willparsons/willparsons.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages" alt="Netlify Status" />
+    <img src="https://github.com/willparsons/willparsons.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages" alt="GitHub Pages status" />
   </a>
 </div>
 
