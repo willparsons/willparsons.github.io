@@ -1,34 +1,47 @@
-## Usage
+> [!NOTE]  
+> This is still a work in progress. Don't judge it too harshly!
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+<h1 align="center">
+  willparsons.github.io
+</h1>
+<div align="center">
+  <a href="https://github.com/willparsons/willparsons.github.io/actions/workflows/pages/pages-build-deployment" target="_blank">
+    <img src="https://github.com/willparsons/willparsons.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages" alt="Netlify Status" />
+  </a>
+</div>
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+## 🛠 Setup
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+1. Install the dependencies
 
-## Available Scripts
+   ```sh
+   npm ci
+   ```
 
-In the project directory, you can run:
 
-### `npm run dev` or `npm start`
+2. Start the dev server
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+   ```sh
+   npm run dev
+   ```
 
-The page will reload if you make edits.<br>
+## 🚀 Building & Deploying
 
-### `npm run build`
+1. Build the site for production
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
+   ```sh
+   npm run build
+   ```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+2. Preview the final build
 
-## Deployment
+   ```sh
+   npm run serve
+   ```
 
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+3. Deploy to GitHub Pages
+
+    ```sh
+    npm run deploy
+    ```
