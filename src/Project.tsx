@@ -21,7 +21,7 @@ export function Project(props: ProjectProps) {
 
             <div class="w-96 flex flex-col justify-normal">
                 <div>
-                    <h1 class="text-4xl font-bold mb-2">{props.name}</h1>
+                    <h1 class="text-4xl font-semibold mb-2">{props.name}</h1>
                     <p class="text-neutral-400 mb-12">{props.description}</p>
                 </div>
 
