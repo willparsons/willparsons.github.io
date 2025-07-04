@@ -7,8 +7,8 @@ import { TbBrandSolidjs } from "solid-icons/tb";
 export function ProjectSection() {
     return (
         <section id="projects" class="w-full min-h-screen flex flex-col justify-center lg:px-64">
-            <h1 class="text-6xl mb-4">My Projects</h1>
-            <p class="mb-8 text-lg text-gray-400">A highlight of some of the things I've worked on lately.</p>
+            <h1 class="text-5xl mb-4">My Projects</h1>
+            <p class="mb-8 text-lg text-neutral-400">A highlight of some of the things I've worked on lately.</p>
             <div class="flex flex-col gap-4 justify-between">
                 <Project
                     name="Prompto"
