@@ -31,9 +31,9 @@ export function LandingSection() {
                 </div>
 
                 <h1 class="text-7xl">
-                    Hi, I'm <span class="text-purple-300">William</span>.
+                    Hi, I'm <span class="text-secondary">William</span>.
                 </h1>
-                <h1 class="text-4xl text-gray-400">Fullstack Software Engineer</h1>
+                <h1 class="text-4xl text-neutral-400">Fullstack Software Engineer</h1>
 
                 <p class="text-lg my-8">
                     I'm a full-stack web developer with a focus on delivering high-performance, user-centered solutions.
