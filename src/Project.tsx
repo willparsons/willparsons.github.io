@@ -3,7 +3,7 @@ import { For, JSXElement } from "solid-js";
 export type ProjectProps = {
     name: string;
     description: string;
-    image: string;
+    image: JSXElement;
     githubURL: string;
     liveURL?: string;
     learnings: string[];
@@ -13,11 +13,7 @@ export type ProjectProps = {
 export function Project(props: ProjectProps) {
     return (
         <div class="flex gap-4 border border-neutral-900 bg-neutral-900/20 rounded-2xl px-4 py-4">
-            <div class="h-96 flex items-end skeleton flex-grow">
-                <div class="w-full px-8 py-4 bg-black/50 backdrop-blur-xl rounded-b-2xl">
-                    <p>{props.name}</p>
-                </div>
-            </div>
+            <div class="h-96 w-6/10 p-8 flex items-center">{props.image}</div>
 
             <div class="w-96 flex flex-col justify-normal">
                 <div>
