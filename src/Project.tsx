@@ -12,10 +12,10 @@ export type ProjectProps = {
 
 export function Project(props: ProjectProps) {
     return (
-        <div class="flex gap-4 border border-neutral-900 bg-neutral-900/20 rounded-2xl px-4 py-4">
-            <div class="h-96 w-6/10 p-8 flex items-center">{props.image}</div>
+        <div class="flex gap-4 border border-neutral-800 bg-neutral-900/50 rounded-2xl px-4 py-4">
+            <div class="h-96 w-1/2 flex items-center">{props.image}</div>
 
-            <div class="w-96 flex flex-col justify-normal">
+            <div class="w-1/2 flex flex-col justify-normal">
                 <div>
                     <h1 class="text-4xl font-semibold mb-2">{props.name}</h1>
                     <p class="text-neutral-400 mb-12">{props.description}</p>
