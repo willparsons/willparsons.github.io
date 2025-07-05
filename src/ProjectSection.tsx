@@ -15,12 +15,7 @@ export function ProjectSection() {
                 <Project
                     name="Prompto"
                     description="A worlde inspired guessing game where users try to figure out the prompt that generated the image."
-                    image={
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                            class="rounded-xl"
-                        />
-                    }
+                    image={<img src="assets/prompto.png" class="rounded-xl h-full" />}
                     liveURL="https://prompto.today"
                     githubURL="https://github.com/Vik70/prompto"
                     learnings={["Foo", "Bar", "Baz"]}
