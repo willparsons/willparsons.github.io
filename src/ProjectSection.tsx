@@ -15,7 +15,7 @@ export function ProjectSection() {
                 <Project
                     name="Prompto"
                     description="A worlde inspired guessing game where users try to figure out the prompt that generated the image."
-                    image={<img src="assets/prompto.png" class="rounded-xl h-full" />}
+                    image={<img src="assets/prompto.png" class="rounded-xl h-full object-cover" />}
                     liveURL="https://prompto.today"
                     githubURL="https://github.com/Vik70/prompto"
                     learnings={["Foo", "Bar", "Baz"]}
