@@ -2,13 +2,16 @@ import { AiOutlineLinkedin, AiOutlineGithub } from "solid-icons/ai";
 
 export function LandingSection() {
     return (
-        <section id="landing" class="w-full min-h-screen flex flex-row justify-center items-center lg:px-64">
+        <section
+            id="landing"
+            class="w-full min-h-screen flex flex-row justify-center items-center px-4 sm:px-0 2xl:px-64"
+        >
             <div class="w-full">
                 <div class="flex mb-4 justify-between">
                     <div class="flex gap-4 items-center">
-                        <span class="badge badge-soft badge-lg">JS/TS</span>
-                        <span class="badge badge-soft badge-lg">Python</span>
-                        <span class="badge badge-soft badge-lg">React</span>
+                        <span class="badge badge-outline badge-accent badge-md sm:badge-lg">JS/TS</span>
+                        <span class="badge badge-outline badge-accent badge-md sm:badge-lg">Python</span>
+                        <span class="badge badge-outline badge-accent badge-md sm:badge-lg">React</span>
                     </div>
 
                     <div class="flex gap-4">
@@ -30,10 +33,10 @@ export function LandingSection() {
                     </div>
                 </div>
 
-                <h1 class="text-7xl">
+                <h1 class="text-5xl sm:text-7xl">
                     Hi, I'm <span class="text-secondary">William</span>.
                 </h1>
-                <h1 class="text-3xl text-neutral-400">Fullstack Software Engineer</h1>
+                <h1 class="text-xl sm:text-3xl text-neutral-400">Fullstack Software Engineer</h1>
 
                 <p class="text-lg my-8">
                     I'm a full-stack web developer with a focus on delivering high-performance, user-centered solutions.
@@ -42,7 +45,7 @@ export function LandingSection() {
                     elevate the overall user experience.
                 </p>
 
-                <div class="flex flex-row gap-4">
+                <div class="flex flex-row justify-center sm:justify-normal gap-4">
                     <a href="#projects">
                         <button class="btn w-32 btn-outline btn-secondary">Projects</button>
                     </a>
