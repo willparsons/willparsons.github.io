@@ -10,14 +10,19 @@ import PromptoImg from "../assets/prompto.png";
 
 export function ProjectSection() {
     return (
-        <section id="projects" class="w-full min-h-screen flex flex-col justify-center lg:px-64">
-            <h1 class="text-5xl mb-4">My Projects</h1>
+        <section
+            id="projects"
+            class="w-full min-h-screen flex flex-col justify-center px-4 sm:px-0 2xl:px-64 py-4 sm:py-0"
+        >
+            <h1 class="text-4xl sm:text-5xl mb-2 sm:mb-4">My Projects</h1>
             <p class="mb-4 text-lg text-neutral-400">A highlight of some of the things I've worked on lately.</p>
             <div class="flex flex-col gap-4 justify-between">
                 <Project
                     name="Prompto"
                     description="A worlde inspired guessing game where users try to figure out the prompt that generated the image."
-                    image={<img src={PromptoImg} class="rounded-xl h-full object-cover" />}
+                    image={
+                        <img src={PromptoImg} class="w-full h-full object-cover rounded-xl border border-neutral-800" />
+                    }
                     liveURL="https://prompto.today"
                     githubURL="https://github.com/Vik70/prompto"
                     learnings={["Foo", "Bar", "Baz"]}
@@ -48,7 +53,7 @@ export function ProjectSection() {
                 <Project
                     name="My Portfolio"
                     description="The site you're on right now!"
-                    image={<ProgrammerSvg class="w-full h-full" />}
+                    image={<ProgrammerSvg class="w-full h-full rounded-xl border border-neutral-800" />}
                     githubURL="https://github.com/willparsons/willparsons.github.io"
                     learnings={["Foo", "Bar", "Baz"]}
                     technologies={[
