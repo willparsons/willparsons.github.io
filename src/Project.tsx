@@ -12,13 +12,13 @@ export type ProjectProps = {
 
 export function Project(props: ProjectProps) {
     return (
-        <div class="flex flex-col sm:flex-row gap-4 border border-neutral-800 bg-neutral-900/80 rounded-2xl px-4 py-4">
+        <div class="flex flex-col sm:flex-row gap-4 border border-base-300 bg-base-200 rounded-2xl px-4 py-4 text-base-content">
             <div class="h-64 sm:h-96 w-full sm:w-1/2 flex items-center">{props.image}</div>
 
             <div class="w-full sm:w-1/2 flex flex-col justify-between gap-4">
                 <div>
                     <h1 class="text-3xl sm:text-4xl font-semibold sm:mb-2">{props.name}</h1>
-                    <p class="text-neutral-300 text-base sm:text-md lg:text-lg">{props.description}</p>
+                    <p class="text-neutral-content text-base sm:text-md lg:text-lg">{props.description}</p>
                 </div>
 
                 {/* Hiding this for now since I might bring it back */}

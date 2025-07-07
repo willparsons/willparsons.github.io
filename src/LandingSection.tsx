@@ -9,9 +9,9 @@ export function LandingSection() {
             <div class="w-full">
                 <div class="flex mb-4 justify-between">
                     <div class="flex gap-4 items-center">
-                        <span class="badge badge-outline badge-accent badge-md sm:badge-lg">JS/TS</span>
-                        <span class="badge badge-outline badge-accent badge-md sm:badge-lg">Python</span>
-                        <span class="badge badge-outline badge-accent badge-md sm:badge-lg">React</span>
+                        <span class="badge badge-soft badge-accent badge-md sm:badge-xl">JS/TS</span>
+                        <span class="badge badge-soft badge-accent badge-md sm:badge-xl">Python</span>
+                        <span class="badge badge-soft badge-accent badge-md sm:badge-xl">React</span>
                     </div>
 
                     <div class="flex gap-4">
@@ -36,7 +36,7 @@ export function LandingSection() {
                 <h1 class="text-5xl sm:text-7xl">
                     Hi, I'm <span class="text-secondary">William</span>.
                 </h1>
-                <h1 class="text-xl sm:text-3xl text-neutral-400">Fullstack Software Engineer</h1>
+                <h1 class="text-xl sm:text-3xl text-neutral-content">Fullstack Software Engineer</h1>
 
                 <p class="text-lg my-8">
                     I'm a full-stack web developer with a focus on delivering high-performance, user-centered solutions.
