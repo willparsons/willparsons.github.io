@@ -44,7 +44,7 @@ export function Project(props: ProjectProps) {
                     </a>
                     {props.liveURL && (
                         <a href={props.liveURL}>
-                            <button class="btn btn-accent">Live demo</button>
+                            <button class="btn btn-accent btn-soft">Live demo</button>
                         </a>
                     )}
                 </div>
