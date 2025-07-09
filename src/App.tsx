@@ -5,7 +5,6 @@ export function App() {
     return (
         <>
             <LandingSection />
-            <div class="divider" />
             <ProjectSection />
         </>
     );
