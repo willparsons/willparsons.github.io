@@ -1,17 +1,22 @@
 import { AiOutlineLinkedin, AiOutlineGithub } from "solid-icons/ai";
 
+import Background from "../assets/background.svg";
+
 export function LandingSection() {
     return (
         <section
             id="landing"
-            class="w-full min-h-screen flex flex-row justify-center items-center px-4 sm:px-0 2xl:px-64"
+            class={`w-full min-h-screen flex flex-row justify-center items-center px-4 sm:px-0 2xl:px-128 bg-cover bg-right sm:bg-center`}
+            style={{ "background-image": `url(${Background})` }}
         >
-            <div class="w-full">
+            <div class="absolute inset-0 [background:radial-gradient(200%_175%_at_50%_10%,#0000_40%,#000_70%)]" />
+
+            <div class="w-full z-10">
                 <div class="flex mb-4 justify-between">
                     <div class="flex gap-4 items-center">
-                        <span class="badge badge-soft badge-accent badge-md sm:badge-xl">JS/TS</span>
-                        <span class="badge badge-soft badge-accent badge-md sm:badge-xl">Python</span>
-                        <span class="badge badge-soft badge-accent badge-md sm:badge-xl">React</span>
+                        <span class="badge badge-outline badge-secondary badge-md sm:badge-xl">JS/TS</span>
+                        <span class="badge badge-outline badge-secondary badge-md sm:badge-xl">Python</span>
+                        <span class="badge badge-outline badge-secondary badge-md sm:badge-xl">React</span>
                     </div>
 
                     <div class="flex gap-4">
@@ -34,15 +39,16 @@ export function LandingSection() {
                 </div>
 
                 <h1 class="text-5xl sm:text-7xl">
-                    Hi, I'm <span class="text-secondary">William</span>.
+                    Hi, I'm <span class="text-primary">William</span>.
                 </h1>
-                <h1 class="text-xl sm:text-3xl text-neutral-content">Fullstack Software Engineer</h1>
+                <h1 class="text-xl sm:text-3xl py-1 bg-gradient-to-r from-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
+                    Fullstack Software Engineer
+                </h1>
 
-                <p class="text-lg my-8">
+                <p class="text-lg mt-4 mb-8">
                     I'm a full-stack web developer with a focus on delivering high-performance, user-centered solutions.
                     I’m passionate about optimizing both front-end and back-end experiences, ensuring seamless and
-                    intuitive interactions. With every project, I aim to create fast, responsive web applications that
-                    elevate the overall user experience.
+                    intuitive interactions.
                 </p>
 
                 <div class="flex flex-row justify-center sm:justify-normal gap-4">
