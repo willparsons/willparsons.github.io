@@ -12,7 +12,7 @@ export function ProjectSection() {
     return (
         <section
             id="projects"
-            class="w-full min-h-screen flex flex-col justify-center px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 py-8"
+            class="w-full min-h-screen flex flex-col justify-center px-4 sm:px-4 md:px-8 lg:px-32 xl:px-64 2xl:px-128  py-8"
         >
             <h1 class="text-4xl sm:text-5xl mb-2 sm:mb-4">My Projects</h1>
             <p class="mb-4 text-md sm:text-lg text-neutral-content">
