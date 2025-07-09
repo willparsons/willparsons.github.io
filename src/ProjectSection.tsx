@@ -4,7 +4,7 @@ import { FaBrandsReact } from "solid-icons/fa";
 import { BiLogosFirebase, BiLogosTailwindCss, BiLogosTypescript } from "solid-icons/bi";
 import { TbBrandSolidjs } from "solid-icons/tb";
 
-import ProgrammerSvg from "../assets/programmer.svg";
+import ProgrammerSvg from "../assets/programmer.svg?component-solid";
 
 import PromptoImg from "../assets/prompto.png";
 
