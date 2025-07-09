@@ -6,7 +6,7 @@ export function LandingSection() {
     return (
         <section
             id="landing"
-            class={`w-full min-h-screen flex flex-row justify-center items-center px-4 sm:px-0 2xl:px-128 bg-cover bg-right sm:bg-center`}
+            class="w-full min-h-screen flex flex-row justify-center items-center px-4 sm:px-0 2xl:px-128 bg-cover bg-right sm:bg-center"
             style={{ "background-image": `url(${Background})` }}
         >
             <div class="absolute inset-0 [background:radial-gradient(200%_175%_at_50%_10%,#0000_40%,#000_70%)]" />
