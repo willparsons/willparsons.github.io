@@ -12,10 +12,10 @@ export type ProjectProps = {
 
 export function Project(props: ProjectProps) {
     return (
-        <div class="flex flex-col sm:flex-row gap-4 border border-base-300 bg-base-100 rounded-2xl px-4 py-4 text-base-content">
-            <div class="h-64 sm:h-96 w-full sm:w-1/2 flex items-center">{props.image}</div>
+        <div class="flex flex-col sm:flex-row gap-4 border border-base-300 bg-base-100 rounded-2xl px-4 py-4 text-base-content h-fit sm:max-h-80">
+            <div class="w-full sm:w-5/10 flex items-center">{props.image}</div>
 
-            <div class="w-full sm:w-1/2 flex flex-col justify-between gap-4">
+            <div class="w-full sm:w-6/10 flex flex-col justify-between gap-4">
                 <div>
                     <h1 class="text-3xl sm:text-4xl font-semibold sm:mb-2">{props.name}</h1>
                     <p class="text-neutral-content text-base sm:text-md lg:text-lg">{props.description}</p>
@@ -34,7 +34,7 @@ export function Project(props: ProjectProps) {
 
                 <div class="flex flex-wrap gap-2">
                     <For each={props.technologies}>
-                        {(item) => <div class="badge badge-neutral badge-md sm:badge-xl">{item}</div>}
+                        {(item) => <div class="badge badge-neutral badge-md md:badge-lg lg:badge-xl">{item}</div>}
                     </For>
                 </div>
 

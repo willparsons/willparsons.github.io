@@ -10,7 +10,7 @@ import PromptoImg from "../assets/prompto.png";
 
 export function ProjectSection() {
     return (
-        <section id="projects" class="w-full min-h-screen flex flex-col items-center px-2 sm:px-4 md:px-6 lg:px-0 pt-4">
+        <section id="projects" class="w-full min-h-screen flex flex-col items-center px-2 sm:px-4 md:px-6 lg:px-0 py-4">
             <div class="w-full max-w-5xl">
                 <h1 class="text-4xl sm:text-5xl mb-2 sm:mb-4">My Projects</h1>
                 <p class="mb-4 text-md sm:text-lg text-neutral-content">
