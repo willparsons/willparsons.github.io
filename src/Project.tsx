@@ -12,7 +12,7 @@ export type ProjectProps = {
 
 export function Project(props: ProjectProps) {
     return (
-        <div class="flex flex-col sm:flex-row gap-4 border border-base-300 bg-base-200 rounded-2xl px-4 py-4 text-base-content">
+        <div class="flex flex-col sm:flex-row gap-4 border border-base-300 bg-base-100 rounded-2xl px-4 py-4 text-base-content">
             <div class="h-64 sm:h-96 w-full sm:w-1/2 flex items-center">{props.image}</div>
 
             <div class="w-full sm:w-1/2 flex flex-col justify-between gap-4">
