@@ -34,7 +34,7 @@ export function Project(props: ProjectProps) {
 
                 <div class="flex flex-wrap gap-2">
                     <For each={props.technologies}>
-                        {(item) => <div class="badge badge-md sm:badge-xl">{item}</div>}
+                        {(item) => <div class="badge badge-neutral badge-md sm:badge-xl">{item}</div>}
                     </For>
                 </div>
 
