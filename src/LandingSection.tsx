@@ -6,12 +6,12 @@ export function LandingSection() {
     return (
         <section
             id="landing"
-            class="w-full min-h-screen flex flex-row justify-center items-center px-4 sm:px-4 md:px-8 lg:px-32 xl:px-64 2xl:px-128 bg-cover bg-right sm:bg-center"
+            class="w-full min-h-screen flex flex-row justify-center items-center bg-cover bg-right sm:bg-center px-2 sm:px-4 md:px-6 lg:px-0"
             style={{ "background-image": `url(${Background})` }}
         >
             <div class="absolute inset-0 [background:radial-gradient(200%_175%_at_50%_10%,#0000_40%,#000_70%)]" />
 
-            <div class="w-full z-10">
+            <div class="w-full z-10 max-w-5xl">
                 <div class="flex mb-4 justify-between">
                     <div class="flex gap-4 items-center">
                         <span class="badge badge-outline badge-secondary badge-md sm:badge-xl">JS/TS</span>
