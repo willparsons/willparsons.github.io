@@ -3,8 +3,11 @@ import { Project } from "./Project";
 import { FaBrandsReact } from "solid-icons/fa";
 import { BiLogosFirebase, BiLogosTailwindCss, BiLogosTypescript } from "solid-icons/bi";
 import { TbBrandSolidjs } from "solid-icons/tb";
+import { SiSupabase } from "solid-icons/si";
 
 import ProgrammerSvg from "../assets/programmer.svg?component-solid";
+
+import ConstructionSvg from "../assets/construction.svg?component-solid";
 
 import PromptoImg from "../assets/prompto.png";
 
@@ -18,6 +21,35 @@ export function ProjectSection() {
                 </p>
                 <div class="flex flex-col gap-4 justify-between">
                     <Project
+                        name="Switch Catalogue - WIP"
+                        description="A community-driven keyboard switch catalogue"
+                        image={<ConstructionSvg class="p-12 w-full h-full rounded-xl border border-base-300" />}
+                        githubURL="https://github.com/willparsons/switches"
+                        liveURL="https://unrivaled-speculoos-e0a422.netlify.app/"
+                        technologies={[
+                            <>
+                                <SiNextdotjs class="text-white" />
+                                Next.js
+                            </>,
+                            <>
+                                <FaBrandsReact class="text-cyan-400" />
+                                React
+                            </>,
+                            <>
+                                <SiSupabase class="text-green-400" />
+                                Supabase
+                            </>,
+                            <>
+                                <BiLogosTailwindCss class="text-cyan-400" />
+                                Tailwind CSS
+                            </>,
+                            <>
+                                <BiLogosTypescript class="text-blue-400" />
+                                TypeScript
+                            </>,
+                        ]}
+                    />
+                    <Project
                         name="Prompto"
                         description="A worlde inspired guessing game where users try to figure out the prompt that generated the image."
                         image={
@@ -28,7 +60,6 @@ export function ProjectSection() {
                         }
                         liveURL="https://prompto.today"
                         githubURL="https://github.com/Vik70/prompto"
-                        learnings={["Foo", "Bar", "Baz"]}
                         technologies={[
                             <>
                                 <SiNextdotjs class="text-white" />
@@ -40,12 +71,12 @@ export function ProjectSection() {
                                 React
                             </>,
                             <>
-                                <BiLogosTailwindCss class="text-cyan-400" />
-                                Tailwind CSS
-                            </>,
-                            <>
                                 <BiLogosFirebase class="text-orange-400" />
                                 Firebase
+                            </>,
+                            <>
+                                <BiLogosTailwindCss class="text-cyan-400" />
+                                Tailwind CSS
                             </>,
                             <>
                                 <BiLogosTypescript class="text-blue-400" />
@@ -58,7 +89,7 @@ export function ProjectSection() {
                         description="The site you're on right now!"
                         image={<ProgrammerSvg class="w-full h-full rounded-xl border border-base-300" />}
                         githubURL="https://github.com/willparsons/willparsons.github.io"
-                        learnings={["Foo", "Bar", "Baz"]}
+                        liveURL="https://willparsons.github.io"
                         technologies={[
                             <>
                                 <TbBrandSolidjs class="text-blue-400" />

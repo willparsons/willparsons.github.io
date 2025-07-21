@@ -6,7 +6,7 @@ export type ProjectProps = {
     image: JSXElement;
     githubURL: string;
     liveURL?: string;
-    learnings: string[];
+    learnings?: string[];
     technologies: JSXElement[];
 };
 
